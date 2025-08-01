@@ -53,7 +53,7 @@ const PortfolioFooter: React.FC = () => {
       id: 'github',
       name: 'GitHub',
       icon: <Github size={24} />,
-      url: 'https://github.com/yourusername',
+      url: 'https://github.com/Isaac-1-lang',
       color: 'text-gray-400',
       hoverColor: 'hover:text-gray-300'
     },
@@ -61,7 +61,7 @@ const PortfolioFooter: React.FC = () => {
       id: 'linkedin',
       name: 'LinkedIn',
       icon: <Linkedin size={24} />,
-      url: 'https://linkedin.com/in/yourusername',
+      url: 'https://linkedin.com/in/NIYOBYOSE Isaac Precieux',
       color: 'text-blue-400',
       hoverColor: 'hover:text-blue-300'
     },
@@ -69,7 +69,7 @@ const PortfolioFooter: React.FC = () => {
       id: 'instagram',
       name: 'Instagram',
       icon: <Instagram size={24} />,
-      url: 'https://instagram.com/yourusername',
+      url: 'https://instagram.com/isaacniyo78',
       color: 'text-pink-400',
       hoverColor: 'hover:text-pink-300'
     },
@@ -85,7 +85,7 @@ const PortfolioFooter: React.FC = () => {
       id: 'figma',
       name: 'Figma',
       icon: <Figma size={24} />,
-      url: 'https://figma.com/@yourusername',
+      url: 'https://www.figma.com/design/Zb75cxBquATQ2pyuYwQVRp/Projects?node-id=0-1&p=f&t=0SlJZ9TU8BdQuaak-0',
       color: 'text-purple-400',
       hoverColor: 'hover:text-purple-300'
     },
@@ -93,7 +93,7 @@ const PortfolioFooter: React.FC = () => {
       id: 'canva',
       name: 'Canva',
       icon: <Palette size={24} />,
-      url: 'https://canva.com/yourusername',
+      url: 'https://www.canva.com/design/DAGujUJmlnw/aPsBU6tC__vbw3RCNjO_sg/edit',
       color: 'text-cyan-400',
       hoverColor: 'hover:text-cyan-300'
     },
@@ -101,7 +101,7 @@ const PortfolioFooter: React.FC = () => {
       id: 'twitter',
       name: 'Twitter',
       icon: <Twitter size={24} />,
-      url: 'https://twitter.com/yourusername',
+      url: 'https://twitter.com/@PrecieuxIs73595',
       color: 'text-blue-400',
       hoverColor: 'hover:text-blue-300'
     }
@@ -169,15 +169,15 @@ const PortfolioFooter: React.FC = () => {
       <div className="space-y-2 text-gray-300">
         <div className="flex items-center space-x-2 hover:text-purple-400 transition-colors cursor-pointer">
           <Mail size={16} />
-          <span>hello@yourportfolio.com</span>
+          <span>isaprecieux112@gmail.com</span>
         </div>
         <div className="flex items-center space-x-2 hover:text-purple-400 transition-colors cursor-pointer">
           <Phone size={16} />
-          <span>+1 (555) 123-4567</span>
+          <span>+250 792 688 507</span>
         </div>
         <div className="flex items-center space-x-2 hover:text-purple-400 transition-colors cursor-pointer">
           <MapPin size={16} />
-          <span>Your City, Country</span>
+          <span>Kigali, Rwanda</span>
         </div>
       </div>
     </div>
@@ -288,8 +288,11 @@ const PortfolioFooter: React.FC = () => {
               <div className="text-sm text-gray-400 mb-2">Tech Stack Proficiency</div>
               {[
                 { name: 'React/TypeScript', level: 95, color: 'bg-blue-500' },
-                { name: 'UI/UX Design', level: 88, color: 'bg-purple-500' },
-                { name: 'Node.js', level: 82, color: 'bg-green-500' }
+                { name: 'UI/UX Design', level: 50, color: 'bg-purple-500' },
+                { name: 'Node.js', level: 82, color: 'bg-green-500' },
+                {name: 'Python', level: 95, color: 'bg-yellow-500' },
+                { name: 'React Native', level: 70, color: 'bg-pink-500' },
+                { name: 'Java', level: 40, color: 'bg-teal-500' }
               ].map((skill) => (
                 <div key={skill.name} className="flex items-center space-x-3">
                   <span className="text-xs text-gray-400 w-24">{skill.name}</span>
