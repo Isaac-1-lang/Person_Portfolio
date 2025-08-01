@@ -134,13 +134,13 @@ const PortfolioNavbar: React.FC = () => {
     const typewriterIntervals: { [key: string]: NodeJS.Timeout } = {};
 
     navItems.forEach((item, navIndex) => {
-      const startDelay = navIndex * 1000; // Stagger the animations
+      const startDelay = navIndex * 1000; 
       
       setTimeout(() => {
         const runTypewriter = () => {
           const typeSpeed = 80;
           const deleteSpeed = 40;
-          const pauseTime = 3000 + Math.random() * 2000; // Random pause for variety
+          const pauseTime = 3000 + Math.random() * 2000; 
 
           const type = () => {
             setTypewriterStates(prev => {
@@ -332,8 +332,6 @@ const PortfolioNavbar: React.FC = () => {
           })}
         </div>
       </div>
-
-      {/* Floating indicator for desktop */}
       <div className="hidden md:block absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-purple-600 via-blue-600 to-teal-500 opacity-0 hover:opacity-100 transition-opacity duration-300" />
     </nav>
   );
